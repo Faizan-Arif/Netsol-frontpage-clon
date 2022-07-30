@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #0f1012, #181b90);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    margin: 40px;
+    width: 48px;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.sub-container-1 {
+    width: 8%;
+    height: 70%;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.menu-link {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.cross-bar {
+    width: 25%;
+    margin-left: 11px;
+    margin-top: 12px;
+}
+
+.menu-bar-1 {
+    border-top: 1px solid white;
+    width: 99%;
+    margin-top: 20px;
+    transform: rotate(45deg);
+}
+
+.menu-bar-2 {
+    border-top: 1px solid white;
+    width: 101%;
+    margin-top: -1px;
+    transform: rotate(-45deg);
+}
+
+svg {
+    display: block;
+}
+
+.sub-container-2 {
+    display: inline-block;
+    width: 85%;
+}
+
+.list {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.list-member {
+    /* width: 112px; */
+    height: 100px;
+    margin: 12px;
+    padding: 12px;
+    /* border: 2px solid white; */
+}
+
+.list-member a:hover {
+    color: #1c72b8;
+}
+
+#home {
+    color: #1c72b8;
+}
+
+.list-member a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+span {
+    color: #1c72b8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.list-member {
+    display: inline-block;
+    /* position: fixed; */
+}
+
+.dropdown {
+    display: none;
+}
+
+.list-member:hover .dropdown {
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+.dropdown ul li a {
+    font-weight: lighter;
+}
+
+ul li {
+    width: 195px;
+    line-height: 30px;
+}
+
+
+/* 
+.sub-container-2:hover,
+#list-member-6:hover {
+    background-position: center;
+    background-image: url('img/eventsVector.svg');
+    background-color: #0f1012;
+    background-position-x: left;
+    border: 1px solid white;
+} */
+
+.explore {
+    width: 5%;
+    margin-left: 48%;
+}
+
+.explore .btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    height: 70px;
+    text-align: center;
+    width: 72px;
+}
+
+.explore .btn:hover {
+    background-color: white;
+    color: #1c72b8;
+}
+
+.buttons {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+
+.buttons .btns {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 0px;
+    margin-left: 8px;
+    height: 35px;
+    text-align: center;
+    width: 110px;
+}
+
+.buttons .btns:hover {
+    background-color: white;
+    color: #1c72b8;
+}
